@@ -12,7 +12,7 @@ class GlobalImpactView: UIViewController {
 
     @IBOutlet weak var imageFrame: UIImageView!
     
-    // private func changeImage
+     // private func changeImage
     
     
     
