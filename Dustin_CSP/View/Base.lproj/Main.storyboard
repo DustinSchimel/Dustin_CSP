@@ -39,6 +39,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="57" y="97"/>
         </scene>
         <!--Algorithms View-->
         <scene sceneID="zgQ-F4-Kp9">
@@ -77,8 +78,54 @@
             </objects>
             <point key="canvasLocation" x="789.60000000000002" y="96.7016491754123"/>
         </scene>
+        <!--Global Impact View-->
+        <scene sceneID="kdt-nP-0yf">
+            <objects>
+                <viewController id="2WM-Jd-xKz" customClass="GlobalImpactView" customModule="Dustin_CSP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7JH-cY-N3y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CleanWater" translatesAutoresizingMaskIntoConstraints="NO" id="Bz4-Yj-Gbi">
+                                <rect key="frame" x="67" y="519" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hs1-iM-qDO">
+                                <rect key="frame" x="67" y="377" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f1n-g4-xLc">
+                                <rect key="frame" x="9" y="20" width="356" height="324"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">The app will use different maps to display the PH levels and mortality rates of people in the world to show where the clean water is.
+
+It will have a feature that allows you submit different pictures and info to a seperate website to be possibly added to the app.
+
+It will have a gross water button. It records your location when you push it so it can be recorded and added to the app. A percentage will be show of people who pushed the button at the loacation
+
+Chat room to discuss ways to fix poop water
+
+Contact info so you know what to do if you drink poop water and to get more info on the water near you.
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="gQ4-VT-pAt"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageFrame" destination="hs1-iM-qDO" id="H4w-O2-nEa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KBo-JD-RNG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1445.5999999999999" y="96.7016491754123"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="CleanWater" width="1200" height="832"/>
         <image name="swiftThings" width="1248" height="1244"/>
     </resources>
 </document>
