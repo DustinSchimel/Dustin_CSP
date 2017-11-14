@@ -66,6 +66,14 @@
                                 <rect key="frame" x="67" y="341" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXL-HW-WUu">
+                                <rect key="frame" x="116" y="581" width="116" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="To Global Impact"/>
+                                <connections>
+                                    <segue destination="2WM-Jd-xKz" kind="show" id="wdE-zv-Hzc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="le1-gr-2zX"/>
@@ -94,12 +102,24 @@
                                 <rect key="frame" x="67" y="377" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNw-4h-xEK">
+                                <rect key="frame" x="9" y="236" width="350" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f1n-g4-xLc">
-                                <rect key="frame" x="9" y="20" width="356" height="324"/>
+                                <rect key="frame" x="9" y="-37" width="356" height="324"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">The app will use different maps to display the PH levels and mortality rates of people in the world to show where the clean water is.
+                                        <mutableString key="content">The app will use different maps to display the PH levels and mortality rates of people in the world to show where the clean water is.
 
 It will have a feature that allows you submit different pictures and info to a seperate website to be possibly added to the app.
 
@@ -108,9 +128,9 @@ It will have a gross water button. It records your location when you push it so 
 Chat room to discuss ways to fix poop water
 
 Contact info so you know what to do if you drink poop water and to get more info on the water near you.
-</string>
+</mutableString>
                                         <attributes>
-                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <font key="NSFont" size="10" name=".SFNSText"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -122,6 +142,7 @@ Contact info so you know what to do if you drink poop water and to get more info
                     </view>
                     <connections>
                         <outlet property="imageFrame" destination="hs1-iM-qDO" id="H4w-O2-nEa"/>
+                        <outlet property="problemLabel" destination="PNw-4h-xEK" id="S3O-ZN-0tc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KBo-JD-RNG" userLabel="First Responder" sceneMemberID="firstResponder"/>

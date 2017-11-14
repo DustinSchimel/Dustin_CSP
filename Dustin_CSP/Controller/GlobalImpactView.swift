@@ -11,20 +11,14 @@ import UIKit
 class GlobalImpactView: UIViewController {
 
     @IBOutlet weak var imageFrame: UIImageView!
-    
-     // private func changeImage
-    
-    
-    
-    
-    
-    
-    
+    @IBOutlet weak var problemLabel: UILabel!
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        //imageFrame.image = UIImage(named: "")
+        imageFrame.image = UIImage(named: "WaterAppPlan")
+        problemLabel.text = "The planet that we live on, the people who live on it depend on water. As the human population grows larger the water sources become scarce and dirty. More ways are needed in order to help people find good sources of water and to educate on proper water usage."
+        problemLabel.font = UIFont(name: "Arial", size: 15)
         // Do any additional setup after loading the view.
     }
 
