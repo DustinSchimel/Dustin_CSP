@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		798CF4D91FC360AF00815CBD /* Soccerball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CF4D81FC360AF00815CBD /* Soccerball.swift */; };
+		798CF4DB1FC362EF00815CBD /* Kickable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798CF4DA1FC362EF00815CBD /* Kickable.swift */; };
 		798E30A61FA256C30010D962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798E30A51FA256C30010D962 /* AppDelegate.swift */; };
 		798E30A81FA256C30010D962 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798E30A71FA256C30010D962 /* ViewController.swift */; };
 		798E30AB1FA256C30010D962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798E30A91FA256C30010D962 /* Main.storyboard */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		798CF4D81FC360AF00815CBD /* Soccerball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soccerball.swift; sourceTree = "<group>"; };
+		798CF4DA1FC362EF00815CBD /* Kickable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kickable.swift; sourceTree = "<group>"; };
 		798E30A21FA256C30010D962 /* Dustin_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dustin_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		798E30A51FA256C30010D962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		798E30A71FA256C30010D962 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		798CF4D51FC35ED900815CBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				798CF4DA1FC362EF00815CBD /* Kickable.swift */,
+				798CF4D81FC360AF00815CBD /* Soccerball.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		798E30991FA256C30010D962 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +81,7 @@
 		798E30A41FA256C30010D962 /* Dustin_CSP */ = {
 			isa = PBXGroup;
 			children = (
+				798CF4D51FC35ED900815CBD /* Model */,
 				798E30B71FA256FC0010D962 /* Controller */,
 				798E30B81FA257140010D962 /* View */,
 				798E30B91FA257260010D962 /* Resources */,
@@ -187,9 +201,11 @@
 				798E30C11FA25B5E0010D962 /* AbstractionView.swift in Sources */,
 				798E30BF1FA25B430010D962 /* CreativityView.swift in Sources */,
 				798E30CB1FA25C8A0010D962 /* GlobalImpactView.swift in Sources */,
+				798CF4DB1FC362EF00815CBD /* Kickable.swift in Sources */,
 				798E30C31FA25BB60010D962 /* DataInformationView.swift in Sources */,
 				798E30A61FA256C30010D962 /* AppDelegate.swift in Sources */,
 				798E30C71FA25C4D0010D962 /* ProgrammingView.swift in Sources */,
+				798CF4D91FC360AF00815CBD /* Soccerball.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
