@@ -126,7 +126,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D1A-f4-81G">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ByteCodeExample" translatesAutoresizingMaskIntoConstraints="NO" id="D1A-f4-81G">
                                 <rect key="frame" x="82" y="204" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -326,6 +326,7 @@ Contact info so you know what to do if you drink poop water and to get more info
         </scene>
     </scenes>
     <resources>
+        <image name="ByteCodeExample" width="395" height="295"/>
         <image name="CleanWater" width="1200" height="832"/>
         <image name="swiftThings" width="1248" height="1244"/>
     </resources>
