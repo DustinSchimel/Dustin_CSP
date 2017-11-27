@@ -1,5 +1,5 @@
 //
-//  AbstractionView.swift
+//  AbstractionViewController.swift
 //  Dustin_CSP
 //
 //  Created by Schimel, Dustin on 10/26/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class AbstractionView: UIPageViewController, UIPageViewControllerDataSource
+public class AbstractionViewController: UIPageViewController, UIPageViewControllerDataSource
 {
     
     //MARK: Array of subviews
@@ -44,7 +44,7 @@ public class AbstractionView: UIPageViewController, UIPageViewControllerDataSour
     }
 
     //MARK:- Required Protocol methods for UIPageViewControllerDatasource
-    public func pageViewController(_ pageViewController: UIPageViewController, ViewControllerBeforeviewController: UIViewController) -> UIViewController?
+    public func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController?
     {
         guard let viewControllerIndex = orderedAbstractionViews.index(of: viewController)
         else
@@ -69,7 +69,7 @@ public class AbstractionView: UIPageViewController, UIPageViewControllerDataSour
         return orderedAbstractionViews[previousIndex]
     }
     
-    public func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfterviewController: UIViewController) -> UIViewController?
+    public func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController?
     {
         guard let viewControllerIndex = orderedAbstractionViews.index(of: viewController)
         else
@@ -94,15 +94,23 @@ public class AbstractionView: UIPageViewController, UIPageViewControllerDataSour
         return orderedAbstractionViews[nextIndex]
     }
     
+    //MARK:- Support for dots in the UIPageViewController
     
-    
-    
-    
-    
-    public override func didReceiveMemoryWarning()
+    public func presentationCount(for pageViewController: UIPageViewController) -> Int
     {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        return orderedAbstractionViews.count
+    }
+    
+    public func presentationIndex(for pageViewController: UIPageViewController) -> Int
+    {
+        guard let firstViewController = viewControllers?.first, let firstViewControllerIndex =
+            orderedAbstractionViews.index(of: firstViewController)
+        else
+        {
+            return 0
+        }
+        
+        return firstViewControllerIndex
     }
     
 }
