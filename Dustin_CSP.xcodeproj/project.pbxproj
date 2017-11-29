@@ -19,7 +19,7 @@
 		798E30C31FA25BB60010D962 /* DataInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798E30C21FA25BB60010D962 /* DataInformationViewController.swift */; };
 		798E30C51FA25BC80010D962 /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798E30C41FA25BC80010D962 /* AlgorithmsViewController.swift */; };
 		798E30C71FA25C4D0010D962 /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798E30C61FA25C4D0010D962 /* ProgrammingViewController.swift */; };
-		798E30C91FA25C730010D962 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798E30C81FA25C730010D962 /* InternetViewController.swift */; };
+		798E30C91FA25C730010D962 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798E30C81FA25C730010D962 /* InternetMasterViewController.swift */; };
 		798E30CB1FA25C8A0010D962 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798E30CA1FA25C8A0010D962 /* GlobalImpactViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +38,7 @@
 		798E30C21FA25BB60010D962 /* DataInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInformationViewController.swift; sourceTree = "<group>"; };
 		798E30C41FA25BC80010D962 /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
 		798E30C61FA25C4D0010D962 /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
-		798E30C81FA25C730010D962 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		798E30C81FA25C730010D962 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		798E30CA1FA25C8A0010D962 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,7 +99,7 @@
 				798E30C21FA25BB60010D962 /* DataInformationViewController.swift */,
 				798E30C41FA25BC80010D962 /* AlgorithmsViewController.swift */,
 				798E30C61FA25C4D0010D962 /* ProgrammingViewController.swift */,
-				798E30C81FA25C730010D962 /* InternetViewController.swift */,
+				798E30C81FA25C730010D962 /* InternetMasterViewController.swift */,
 				798E30CA1FA25C8A0010D962 /* GlobalImpactViewController.swift */,
 			);
 			path = Controller;
@@ -196,7 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				798E30C51FA25BC80010D962 /* AlgorithmsViewController.swift in Sources */,
-				798E30C91FA25C730010D962 /* InternetViewController.swift in Sources */,
+				798E30C91FA25C730010D962 /* InternetMasterViewController.swift in Sources */,
 				798E30A81FA256C30010D962 /* ViewController.swift in Sources */,
 				798E30C11FA25B5E0010D962 /* AbstractionViewController.swift in Sources */,
 				798E30BF1FA25B430010D962 /* CreativityViewController.swift in Sources */,
