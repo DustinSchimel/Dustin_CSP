@@ -21,6 +21,7 @@
 		798E30C71FA25C4D0010D962 /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798E30C61FA25C4D0010D962 /* ProgrammingViewController.swift */; };
 		798E30C91FA25C730010D962 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798E30C81FA25C730010D962 /* InternetMasterViewController.swift */; };
 		798E30CB1FA25C8A0010D962 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798E30CA1FA25C8A0010D962 /* GlobalImpactViewController.swift */; };
+		79D1EDA81FCF39EA0093F9E3 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D1EDA71FCF39EA0093F9E3 /* InternetDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		798E30C61FA25C4D0010D962 /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
 		798E30C81FA25C730010D962 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		798E30CA1FA25C8A0010D962 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
+		79D1EDA71FCF39EA0093F9E3 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				798E30C61FA25C4D0010D962 /* ProgrammingViewController.swift */,
 				798E30C81FA25C730010D962 /* InternetMasterViewController.swift */,
 				798E30CA1FA25C8A0010D962 /* GlobalImpactViewController.swift */,
+				79D1EDA71FCF39EA0093F9E3 /* InternetDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				798E30C91FA25C730010D962 /* InternetMasterViewController.swift in Sources */,
 				798E30A81FA256C30010D962 /* ViewController.swift in Sources */,
 				798E30C11FA25B5E0010D962 /* AbstractionViewController.swift in Sources */,
+				79D1EDA81FCF39EA0093F9E3 /* InternetDetailViewController.swift in Sources */,
 				798E30BF1FA25B430010D962 /* CreativityViewController.swift in Sources */,
 				798E30CB1FA25C8A0010D962 /* GlobalImpactViewController.swift in Sources */,
 				798CF4DB1FC362EF00815CBD /* Kickable.swift in Sources */,

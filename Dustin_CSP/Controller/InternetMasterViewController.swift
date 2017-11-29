@@ -10,7 +10,7 @@ import UIKit
 
 public class InternetMasterViewController: UITableViewController {
 
-    private (set) lazy var internetTopics : [Sring] =
+    private (set) lazy var internetTopics : [String] =
     {
         return [
             "Definitions",
@@ -29,7 +29,7 @@ public class InternetMasterViewController: UITableViewController {
         
     }
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         setup()
         //Uncomment the following line to preserve selection between presentations
