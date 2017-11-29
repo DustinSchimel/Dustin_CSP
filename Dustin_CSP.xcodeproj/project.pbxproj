@@ -22,6 +22,7 @@
 		798E30C91FA25C730010D962 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798E30C81FA25C730010D962 /* InternetMasterViewController.swift */; };
 		798E30CB1FA25C8A0010D962 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798E30CA1FA25C8A0010D962 /* GlobalImpactViewController.swift */; };
 		79D1EDA81FCF39EA0093F9E3 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D1EDA71FCF39EA0093F9E3 /* InternetDetailViewController.swift */; };
+		79D1EDAB1FCF3B990093F9E3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D1EDAA1FCF3B990093F9E3 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		798E30C81FA25C730010D962 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		798E30CA1FA25C8A0010D962 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
 		79D1EDA71FCF39EA0093F9E3 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		79D1EDAA1FCF3B990093F9E3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79D1EDAB1FCF3B990093F9E3 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +72,7 @@
 			children = (
 				798E30A41FA256C30010D962 /* Dustin_CSP */,
 				798E30A31FA256C30010D962 /* Products */,
+				79D1EDA91FCF3B990093F9E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +128,14 @@
 				798E30B11FA256C30010D962 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		79D1EDA91FCF3B990093F9E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79D1EDAA1FCF3B990093F9E3 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

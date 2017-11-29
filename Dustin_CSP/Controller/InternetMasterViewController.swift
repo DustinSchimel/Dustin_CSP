@@ -39,7 +39,7 @@ public class InternetMasterViewController: UITableViewController {
     
     // MARK: - Table view data Source
     
-    override public func numberOfSelections(in tableView: UITableView) ->Int
+    override public func numberOfSelections(in tableView: UITableView) -> Int
     {
         // #warning Incomplete implementation, return the number of sections
         return 1
