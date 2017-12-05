@@ -31,11 +31,11 @@ public class InternetMasterViewController: UITableViewController {
         //TODO: Replace with your correct links
         addresses = [
             "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
+            "https://apstudent.collegeboard.org/apcourse/ap-computer-science-principles#/",
+            "http://www.canyonsdistrict.org/",
+            "https://ctec.canyonsdistrict.org/",
+            "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309",
+            "https://twitter.com/",
         ]
         
         if let splitView = splitViewController
@@ -56,7 +56,7 @@ public class InternetMasterViewController: UITableViewController {
     
     // MARK: - Table view data Source
     
-    override public func numberOfSelections(in tableView: UITableView) -> Int
+    override public func numberOfSections(in tableView: UITableView) -> Int
     {
         // #warning Incomplete implementation, return the number of sections
         return 1
@@ -74,5 +74,39 @@ public class InternetMasterViewController: UITableViewController {
         cell.textLabel!.text = currentText
         
         return cell
+    }
+    
+    //MARK: Handle the internal transfer
+    override public func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier! == "showDetail"
+        {
+            if let indexPath = self.tableView.indexPathForSelectedRow
+            {
+                let urlString = addresses[indexPath.row]
+                let pageText : String
+                
+                if indexPath.row == 0
+                {
+                    //TODO: Replace with your definitions - great time to use the """ operator
+                    pageText = "All the definition you wrote............"
+                }
+                else
+                {
+                    pageText = internetTopics[indexPath.row]
+                }
+                
+                let controller = segue.destination as!
+                    InternetDetailViewController
+                
+                controller.detailAddress = urlString
+                controller.detailText = pageText
+                controller.navigationItem.leftBarButtonItem =
+                    splitViewController?.displayModeButtonItem
+                controller.navigationItem.leftItemsSupplementBackButton =
+                    true
+                
+            }
+        }
     }
 }
