@@ -118,7 +118,7 @@ public class CreativityViewController: UICollectionViewController, UICollectionV
         return CGSize(width: widthPerItem, height: widthPerItem)
     }
     
-    public func collecionView(_ collectionView: UICollectionView,
+    public func collectionView(_ collectionView: UICollectionView,
                           layout collectionViewLayout: UICollectionViewLayout,
                           insetForSectionAt section: Int) -> UIEdgeInsets
     {
