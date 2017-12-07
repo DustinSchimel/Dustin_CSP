@@ -22,6 +22,7 @@
 		798E30CB1FA25C8A0010D962 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798E30CA1FA25C8A0010D962 /* GlobalImpactViewController.swift */; };
 		79D1EDA81FCF39EA0093F9E3 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D1EDA71FCF39EA0093F9E3 /* InternetDetailViewController.swift */; };
 		79D1EDAB1FCF3B990093F9E3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D1EDAA1FCF3B990093F9E3 /* WebKit.framework */; };
+		79D36BD51FD9D37A00193A65 /* ArtCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D36BD41FD9D37A00193A65 /* ArtCellCollectionViewCell.swift */; };
 		79D577281FD72A21005207F6 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D577271FD72A21005207F6 /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		798E30CA1FA25C8A0010D962 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
 		79D1EDA71FCF39EA0093F9E3 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		79D1EDAA1FCF3B990093F9E3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		79D36BD41FD9D37A00193A65 /* ArtCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCellCollectionViewCell.swift; sourceTree = "<group>"; };
 		79D577271FD72A21005207F6 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 				798E30C81FA25C730010D962 /* InternetMasterViewController.swift */,
 				798E30CA1FA25C8A0010D962 /* GlobalImpactViewController.swift */,
 				79D1EDA71FCF39EA0093F9E3 /* InternetDetailViewController.swift */,
+				79D36BD41FD9D37A00193A65 /* ArtCellCollectionViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				798E30C31FA25BB60010D962 /* DataInformationViewController.swift in Sources */,
 				798E30A61FA256C30010D962 /* AppDelegate.swift in Sources */,
 				798E30C71FA25C4D0010D962 /* ProgrammingViewController.swift in Sources */,
+				79D36BD51FD9D37A00193A65 /* ArtCellCollectionViewCell.swift in Sources */,
 				798CF4D91FC360AF00815CBD /* Soccerball.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
