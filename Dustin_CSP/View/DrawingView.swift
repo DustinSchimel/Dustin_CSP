@@ -17,7 +17,7 @@ public class DrawingView: UIView
         //Drawing code
         drawStickFigure().stroke()
         drawTurtle().stroke()
-        drawKoalaBall().stroke()
+        drawKoalaBall().fill()
     }
     
     private func drawStickFigure() -> UIBezierPath
