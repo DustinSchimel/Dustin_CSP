@@ -17,7 +17,7 @@ class GlobalImpactView: UIViewController {
     {
         super.viewDidLoad()
         imageFrame.image = UIImage(named: "WaterAppPlan")
-        problemLabel.text = "The planet that we live on, the people who live on it depend on water. As the human population grows larger the water sources become scarce and dirty. More ways are needed in order to help people find good sources of water and to educate on proper water usage."
+        problemLabel.text = "The planet that we live on, the people who live on it depend on water. As the human population grows larger the water sources become scarce and dirty. More ways are needed to help people find good sources of water and to educate on proper water usage."
         problemLabel.font = UIFont(name: "Arial", size: 15)
         // Do any additional setup after loading the view.
     }
