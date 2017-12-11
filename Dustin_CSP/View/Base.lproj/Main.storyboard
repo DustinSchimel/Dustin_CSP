@@ -170,7 +170,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tKa-HK-CDA" id="MVT-Ib-3sb">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
@@ -412,32 +412,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CleanWater" translatesAutoresizingMaskIntoConstraints="NO" id="Bz4-Yj-Gbi">
-                                <rect key="frame" x="67" y="138" width="240" height="128"/>
+                                <rect key="frame" x="16" y="163" width="175" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hs1-iM-qDO">
-                                <rect key="frame" x="67" y="446" width="240" height="128"/>
+                                <rect key="frame" x="199" y="163" width="163" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNw-4h-xEK">
-                                <rect key="frame" x="12" y="20" width="350" height="121"/>
+                                <rect key="frame" x="12" y="45" width="350" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Label">
                                         <attributes>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" size="14" name=".AppleSystemUIFont"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f1n-g4-xLc">
-                                <rect key="frame" x="12" y="274" width="350" height="164"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f1n-g4-xLc">
+                                <rect key="frame" x="16" y="281" width="350" height="242"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">The app will use different maps to display the PH levels and mortality rates of people in the world to show where clean water is.
+                                        <mutableString key="content">The app will use different maps to display the PH levels and mortality rates of people in the world to show where clean water is.
 
 It will have a feature that allows you submit different pictures and info to a seperate website to be possibly added to the app.
 
@@ -446,28 +446,33 @@ It will have a gross water button. It records your location when you push it so 
 Chat room to discuss ways to fix dirty water
 
 Contact info so you know what to do if you drink unhealthy water and to get more info on the water near you.
-</string>
+</mutableString>
                                         <attributes>
-                                            <font key="NSFont" size="10" name=".SFNSText"/>
+                                            <font key="NSFont" size="12" name=".SFNSText"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGP-ee-Aob">
-                                <rect key="frame" x="8" y="582" width="359" height="65"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGP-ee-Aob">
+                                <rect key="frame" x="8" y="628" width="359" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">My connection to the issue is that even though I can't relate greatly, I can in some way. The water we drink here isn't filtered as well as it should be in order to save on money and it will more than likely have a </string>
+                                <string key="text">Even though I can't relate greatly to this issue, I can in some ways. There are multiple water sources in the U.S. that are not safe to drink that someone might think are. There is also different water brands that may not filter their water enough to make it fully clean.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vva-NF-ibe">
+                                <rect key="frame" x="75" y="518" width="224" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="gQ4-VT-pAt"/>
                     </view>
                     <connections>
                         <outlet property="imageFrame" destination="hs1-iM-qDO" id="H4w-O2-nEa"/>
+                        <outlet property="mapView" destination="vva-NF-ibe" id="dBh-V9-MkO"/>
                         <outlet property="problemLabel" destination="PNw-4h-xEK" id="S3O-ZN-0tc"/>
                     </connections>
                 </viewController>
