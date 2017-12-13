@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Programming View-->
+        <!--Programming View Controller-->
         <scene sceneID="NYh-Se-W2I">
             <objects>
-                <viewController id="lQE-ZP-ewg" customClass="ProgrammingView" customModule="Dustin_CSP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="lQE-ZP-ewg" customClass="ProgrammingViewController" customModule="Dustin_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XEy-5x-bqI" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
