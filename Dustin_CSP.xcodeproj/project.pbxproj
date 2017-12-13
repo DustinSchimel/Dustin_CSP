@@ -19,7 +19,6 @@
 		7943DDE41FE1AF6100A7BBA0 /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7943DDE31FE1AF6100A7BBA0 /* StarField.sks */; };
 		7943DDEB1FE1B00B00A7BBA0 /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943DDE51FE1B00900A7BBA0 /* Projectile.swift */; };
 		7943DDEC1FE1B00B00A7BBA0 /* InvaderLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943DDE61FE1B00900A7BBA0 /* InvaderLaser.swift */; };
-		7943DDED1FE1B00B00A7BBA0 /* floatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943DDE71FE1B00900A7BBA0 /* floatable.swift */; };
 		7943DDEE1FE1B00B00A7BBA0 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943DDE81FE1B00900A7BBA0 /* Player.swift */; };
 		7943DDEF1FE1B00B00A7BBA0 /* PlayerLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943DDE91FE1B00A00A7BBA0 /* PlayerLaser.swift */; };
 		7943DDF01FE1B00B00A7BBA0 /* Invader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7943DDEA1FE1B00A00A7BBA0 /* Invader.swift */; };
@@ -55,7 +54,6 @@
 		7943DDE31FE1AF6100A7BBA0 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
 		7943DDE51FE1B00900A7BBA0 /* Projectile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Projectile.swift; sourceTree = "<group>"; };
 		7943DDE61FE1B00900A7BBA0 /* InvaderLaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvaderLaser.swift; sourceTree = "<group>"; };
-		7943DDE71FE1B00900A7BBA0 /* floatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = floatable.swift; sourceTree = "<group>"; };
 		7943DDE81FE1B00900A7BBA0 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		7943DDE91FE1B00A00A7BBA0 /* PlayerLaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerLaser.swift; sourceTree = "<group>"; };
 		7943DDEA1FE1B00A00A7BBA0 /* Invader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invader.swift; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 		798CF4D51FC35ED900815CBD /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7943DDE71FE1B00900A7BBA0 /* floatable.swift */,
 				7943DDEA1FE1B00A00A7BBA0 /* Invader.swift */,
 				7943DDE61FE1B00900A7BBA0 /* InvaderLaser.swift */,
 				7943DDE81FE1B00900A7BBA0 /* Player.swift */,
@@ -305,7 +302,6 @@
 				79D36BD51FD9D37A00193A65 /* ArtCellCollectionViewCell.swift in Sources */,
 				7943DDD01FE1AB0800A7BBA0 /* StartScene.swift in Sources */,
 				798CF4D91FC360AF00815CBD /* Soccerball.swift in Sources */,
-				7943DDED1FE1B00B00A7BBA0 /* floatable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
