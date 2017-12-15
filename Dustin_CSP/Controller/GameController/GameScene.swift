@@ -14,7 +14,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
 {
     //MARK: Invader Data
     let rowsOfInvaders : Int = 4
-    var invaderSpeed : Int = 15
+    var invaderSpeed : Double = 30
     var invadersThatCanFire : [Invader] = []
     
     //MARK: Player Data
