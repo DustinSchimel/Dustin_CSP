@@ -39,6 +39,7 @@
 		79D1EDAB1FCF3B990093F9E3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D1EDAA1FCF3B990093F9E3 /* WebKit.framework */; };
 		79D36BD51FD9D37A00193A65 /* ArtCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D36BD41FD9D37A00193A65 /* ArtCellCollectionViewCell.swift */; };
 		79D577281FD72A21005207F6 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D577271FD72A21005207F6 /* DrawingView.swift */; };
+		79FEAEC21FE9A4A900540592 /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FEAEC11FE9A4A900540592 /* DeathScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		79D1EDAA1FCF3B990093F9E3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		79D36BD41FD9D37A00193A65 /* ArtCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCellCollectionViewCell.swift; sourceTree = "<group>"; };
 		79D577271FD72A21005207F6 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		79FEAEC11FE9A4A900540592 /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				7943DDD31FE1AB1600A7BBA0 /* GameScene.swift */,
 				7943DDD11FE1AB0E00A7BBA0 /* LevelCompleteScene.swift */,
 				7943DDCF1FE1AB0700A7BBA0 /* StartScene.swift */,
+				79FEAEC11FE9A4A900540592 /* DeathScene.swift */,
 			);
 			path = GameController;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				79D36BD51FD9D37A00193A65 /* ArtCellCollectionViewCell.swift in Sources */,
 				7943DDD01FE1AB0800A7BBA0 /* StartScene.swift in Sources */,
 				798CF4D91FC360AF00815CBD /* Soccerball.swift in Sources */,
+				79FEAEC21FE9A4A900540592 /* DeathScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
