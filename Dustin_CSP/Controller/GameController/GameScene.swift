@@ -108,17 +108,39 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
     
     func fireInvaderBullet() -> Void
     {
-       
+        if(invadersThatCanFire.isEmpty)
+        {
+            gameLevel += 1
+            levelComplete()
+        }
+        if let randomInvader = invadersThatCanFire.randomElement()
+        {
+            randomInvader.fireBullet(scene: self)
+        }
     }
     
     func newGame() -> Void
     {
-        
+        let newGameScene = StartScene(size: size)
+        newGameScene.scaleMode = scaleMode
+        let transitionType = SKTransition.flipHorizontal(withDuration: 0.5)
+        view?.presentScene(newGameScene,transition: transitionType)
     }
     
     func levelComplete() -> Void
     {
-        
+        if(gameLevel <= maxLevels)
+        {
+            let levelCompleteScene = LevelCompleteScene(size: size)
+            levelCompleteScene.scaleMode = scaleMode
+            let transitionType = SKTransition.flipHorizontal(withDuration: 0.5)
+            view?.presentScene(levelCompleteScene,transition: transitionType)
+        }
+        else
+        {
+            gameLevel = 1
+            newGame()
+        }
     }
     
     
