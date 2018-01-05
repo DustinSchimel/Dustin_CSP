@@ -18,8 +18,8 @@ public class CreativityViewController: UICollectionViewController, UICollectionV
     private lazy var artSelection : [UIImage?] =
     {
         return [
-            UIImage(named: "cuteKoala"),
-            UIImage(named: "cuteKoala"),
+            UIImage(named: "Art"),
+            UIImage(named: "HaikuMini"),
             UIImage(named: "cuteKoala"),
             UIImage(named: "ByteCodeExample"),
             UIImage(named: "CleanWater"),
