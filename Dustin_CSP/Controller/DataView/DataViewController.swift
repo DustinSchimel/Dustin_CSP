@@ -1,5 +1,5 @@
 //
-//  DataInformationView.swift
+//  DataViewController.swift
 //  Dustin_CSP
 //
 //  Created by Schimel, Dustin on 10/26/17.
@@ -8,15 +8,16 @@
 
 import UIKit
 
-class DataInformationView: UIViewController {
+public class DataViewController : UITableViewController
+{
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
+    public override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
