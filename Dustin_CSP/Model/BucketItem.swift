@@ -6,8 +6,16 @@
 //  Copyright © 2018 Schimel, Dustin. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class BucketItem {
-
+public class BucketItem
+{
+    let itemContents : String
+    let itemAuthor : String
+    
+    init(contents: String, author : String)
+    {
+        itemContents = contents
+        itemAuthor = author
+    }
 }

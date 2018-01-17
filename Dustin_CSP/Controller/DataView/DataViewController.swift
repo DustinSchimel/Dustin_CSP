@@ -18,15 +18,15 @@ public class DataViewController : UITableViewController
     private func loadBucketListFromFile() -> [BucketItem]
     {
         var items = [BucketItem]()
-        if let filePath = Bundle.main.url(forResources: "bucket", withExtension: "csv")
+        if let filePath = Bundle.main.url(forResource: "bucket", withExtension: "csv")
         {
             do
             {
                 let input = try String(contentsOf: filePath)
-                let bucketLines = input.components(superatedBy: "\n")
+                let bucketLines = input.components(separatedBy: "\n")
                 for line in bucketLines
                 {
-                    let item = line.components(speratedBy: ",")
+                    let item = line.components(separatedBy: ",")
                     items.append(BucketItem(contents: item[0],author: item[1]))
                 }
             }
@@ -41,19 +41,19 @@ public class DataViewController : UITableViewController
     
     //MARK : TableView code
     
-    override public func numberOfSections(int tableView: UITableView) -> Int
+    override public func numberOfSections(in tableView: UITableView) -> Int
     {
         return 1
     }
     
-    override public func tableView(_ tableView: UITableView, numberOfRowsInSections section: Int) -> Int
+    override public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return bucketList.count
     }
     
     override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        let currentCell = tableView.dequeueReusableCell(withIdentifier: "dataIdenftifier", for: indexPath) as! BucketItemCell
+        let currentCell = tableView.dequeueReusableCell(withIdentifier: "dataIdentifier", for: indexPath) as! BucketItemCell
         
         currentCell.bucketItem = bucketList[indexPath.row]
         //      currentCell.bucketItemSignature.text = currentCell.bucketItem.itemAuthor

@@ -22,7 +22,7 @@ class BucketItemCell: UITableViewCell
         }
     }
     
-    private func randomEmoji()->String
+    private func randomEmojiSymbol()->String
     {
         let emojiStart = 0x1F601
         let emojiEnd = 0x1F64F
@@ -47,7 +47,7 @@ class BucketItemCell: UITableViewCell
         }
         else
         {
-            bucketItemSignature.text = "authoer goes here"
+            bucketItemSignature.text = "author goes here"
             bucketItemText.text = "text goes here"
         }
         
