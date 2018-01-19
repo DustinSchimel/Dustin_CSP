@@ -18,9 +18,9 @@ public class AlgorithmsView: UIViewController {
         
         // TODO: Define algorithm and all steps
         let algorithm :String = "These are the instructions to create a project in Swift using Xcode and Github \n"
-        let stepOne :String = "First, .... "
-        let stepTwo :String = "Second. ...."
-        let stepThree :String = ".... ... "
+        let stepOne :String = "First, open Xcode and select 'Create a new Xcode project', hit 'Single View App' and enter the info needed."
+        let stepTwo :String = "Second, on GitHub hit 'File', then 'New Repository...'. Make the name the same as the Xcode project, and set the file path to it's location."
+        let stepThree :String = "You've completed all the basic steps!"
         
         // TODO: Finish adding all steps to the algorithm
         algorithmSteps = [stepOne, stepTwo, stepThree]
